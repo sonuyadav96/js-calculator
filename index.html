@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="cantainer">
+    <h1>Calculator</h1> 
+    <div class="calculator">
+
+<div class="formstyle">
+<form name="forms">
+<input type="text" name="answer"> <br> </br>
+<div>
+<table>
+  <tr>
+<td><input type="button" value=" 0 " onclick="forms.answer.value +='7' "></td>
+<td><input type="button" value=" 8 " onclick="forms.answer.value +='8' "></td>
+<td><input type="button" value=" 9 " onclick="forms.answer.value +='9' "></td>
+<td><input type="button" value=" % " onclick="forms.answer.value +='%' "></td>
+<td><input type="button" value=" C " onclick="forms.answer.value ='' "></td>
+</tr>
+<tr>
+  <td><input type="button" value=" 4 " onclick="forms.answer.value +='4' "></td>
+  <td><input type="button" value=" 5 " onclick="forms.answer.value +='5' "></td>
+  <td><input type="button" value=" 6 " onclick="forms.answer.value +='6' "></td>
+  <td><input type="button" value=" * " onclick="forms.answer.value +='*' "></td>
+  <td><input type="button" value=" / " onclick="forms.answer.value +='/' "></td>
+  <td></tr>
+<tr>
+  <td><input type="button" value=" 1 " onclick="forms.answer.value +='1' "></td>
+  <td><input type="button" value=" 2 " onclick="forms.answer.value +='2' "></td>
+  <td><input type="button" value=" 3 " onclick="forms.answer.value +='3' "></td>
+  <td><input type="button" value=" + " onclick="forms.answer.value +='+' "></td>
+  <td><input type="button" value=" - " onclick="forms.answer.value +='-' "></td>
+</tr>
+<tr>
+  <td><input type="button" value=" 0 " onclick="forms.answer.value +='0' "></td>
+  <td><input type="button" value=" 00 " onclick="forms.answer.value +='00' "></td>
+  <td><input type="button" value=" 000 " onclick="forms.answer.value +='000' "></td>
+  <td><input type="button" value=" . " onclick="forms.answer.value +='.' "></td>
+  <td><input type="button" value=" = " onclick="forms.answer.value = eval(forms.answer.value) "></td>
+</tr>
+</table>
+</div>
+ 
+</form>
+
+</div>
+
+</body>
+</html>
